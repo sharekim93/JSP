@@ -15,13 +15,15 @@
 	</head>
 	<body>
 		<div class="container panel panel-info">
-			<h3 class="panle-heading">001. 출력</h3>
-			<p class="well"> 브라우저에서 확인 : consoloe.log("하고싶은 말");</p>
-			<script>
-				console.log("001. 출력");
-				console.log("하고싶은 말");
-				console.log("김나눔");
-			</script>
+			<h3 class="panel-heading"> 이미지</h3>
+			<p> src = "경로" / alt = "대체용어"</p>
+			<p><img src="A00_21390516_1474135840.png" alt="레릿고" class="myimg"></p>
+			<h3 class="panel-heading">이미지경로가 잘못되면 alt가 읽힘</h3>
+			<p><img src="./images/A00_21390516_14741358410.png" alt="레릿고" class="myimg"></p>
+			<h3 class="panel-heading">폴더에 있는 이미지 파일</h3>
+			<p><img src="./images/A00_21390516_1474135840.png" alt="레릿고" class="myimg"></p>
+			<h3 class="panel-heading">폴더 안에 JSP 파일 복사해서 넣기</h3>
+			<p><img src="../A00_21390516_1474135840.png" alt="레릿고" class="myimg"></p>
 		</div>
 	</body>
 </html>
